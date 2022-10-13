@@ -1,0 +1,6 @@
+2022-10-13T18:49:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wptest2\wp-includes\wp-db.php on line 2169
+
+2022-10-13T18:55:39+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\wptest2\wp-includes\wp-db.php on line 2169
+
+2022-10-13T19:01:32+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\wptest2\wp-includes\wp-db.php on line 2169
+
