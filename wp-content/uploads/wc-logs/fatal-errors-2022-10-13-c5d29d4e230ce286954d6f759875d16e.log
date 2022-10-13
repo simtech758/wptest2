@@ -4,3 +4,34 @@
 
 2022-10-13T19:01:32+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\wptest2\wp-includes\wp-db.php on line 2169
 
+2022-10-13T19:23:39+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\wptest2\wp-includes\wp-db.php on line 2169
+
+2022-10-13T19:23:40+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\wptest2\wp-includes\wp-db.php on line 2169
+
+2022-10-13T19:36:03+00:00 CRITICAL Maximum execution time of 600 seconds exceeded in C:\xampp\htdocs\wptest2\wp-includes\wp-db.php on line 2169
+
+2022-10-13T20:05:53+00:00 CRITICAL Maximum execution time of 1200 seconds exceeded in C:\xampp\htdocs\wptest2\wp-includes\wp-db.php on line 2169
+
+2022-10-13T20:06:25+00:00 CRITICAL Out of memory (allocated 83886080) (tried to allocate 20480 bytes) in C:\xampp\htdocs\wptest2\wp-includes\functions.php on line 651
+
+2022-10-13T20:10:55+00:00 CRITICAL Maximum execution time of 1200 seconds exceeded in C:\xampp\htdocs\wptest2\wp-includes\wp-db.php on line 2169
+
+2022-10-13T20:27:42+00:00 CRITICAL Maximum execution time of 1200 seconds exceeded in C:\xampp\htdocs\wptest2\wp-includes\wp-db.php on line 2169
+
+2022-10-13T20:29:47+00:00 CRITICAL Uncaught TypeError: voku\helper\HtmlDomParser::loadHtml(): Argument #1 ($html) must be of type string, bool given, called in C:\xampp\htdocs\wptest2\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php on line 223 and defined in C:\xampp\htdocs\wptest2\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php:843
+Stack trace:
+#0 C:\xampp\htdocs\wptest2\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php(223): voku\helper\HtmlDomParser->loadHtml(false, NULL)
+#1 C:\xampp\htdocs\wptest2\wp-content\plugins\simply-static\src\class-ss-url-extractor.php(279): voku\helper\HtmlDomParser::__callStatic('str_get_html', Array)
+#2 C:\xampp\htdocs\wptest2\wp-content\plugins\simply-static\src\class-ss-url-extractor.php(169): Simply_Static\Url_Extractor->extract_and_replace_urls_in_html()
+#3 C:\xampp\htdocs\wptest2\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php(129): Simply_Static\Url_Extractor->extract_and_update_urls()
+#4 C:\xampp\htdocs\wptest2\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php(97): Simply_Static\Fetch_Urls_Task->handle_200_response(Object(Simply_Static\Page), true, true)
+#5 C:\xampp\htdocs\wptest2\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php(122): Simply_Static\Fetch_Urls_Task->perform()
+#6 C:\xampp\htdocs\wptest2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): Simply_Static\Archive_Creation_Job->task('fetch_urls')
+#7 C:\xampp\htdocs\wptest2\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#8 C:\xampp\htdocs\wptest2\wp-includes\class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#9 C:\xampp\htdocs\wptest2\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\wptest2\wp-includes\plugin.php(524): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\wptest2\wp-cron.php(138): do_action_ref_array('wp_archive_crea...', Array)
+#12 {main}
+  thrown in C:\xampp\htdocs\wptest2\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php on line 843
+
